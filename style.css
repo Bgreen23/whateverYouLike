@@ -6,7 +6,7 @@
   font-weight: 900;
   font-style: italic; }
 
-.arimoR {
+.arimoR, .index .date, .index .weekTitle, .index .categories p, .index .categories li {
   font-family: 'Arimo', sans-serif; }
 
 .index {
@@ -14,6 +14,27 @@
   .index .header {
     height: 20%;
     background-color: #2F5C7C; }
+  .index .weekContent {
+    margin: 5%; }
+  .index .date {
+    font-style: italic;
+    color: #4682b4;
+    margin-top: 5%; }
+  .index .weekTitle {
+    color: #191970;
+    margin: 5% 0 5% 0; }
+  .index .weeklyPost {
+    letter-spacing: 1px; }
+  .index .categories {
+    border-top: 2px solid #2F5C7C;
+    width: 80%;
+    margin: 5%; }
+    .index .categories p {
+      color: #4682b4;
+      margin-top: 5%; }
+    .index .categories li {
+      margin: 5%;
+      color: #191970; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
