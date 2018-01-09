@@ -1,0 +1,39 @@
+.index{
+  background-color: $aliceBlue;
+  .header{
+    height: 20%;
+    background-color: $interstateBlue;
+  }
+  .weekContent {
+    margin: 5%;
+  }
+  .date {
+    @extend .arimoR;
+    font-style: italic;
+    color: $steelblue;
+    margin-top: 5%;
+  }
+  .weekTitle {
+    @extend .arimoR;
+    color: $midnightBlue;
+    margin: 5% 0 5% 0;
+  }
+  .weeklyPost {
+    letter-spacing: 1px;
+  }
+  .categories {
+    border-top: 2px solid $interstateBlue;
+    width: 80%;
+    margin: 5%;
+    p {
+      @extend .arimoR;
+      color: $steelblue;
+      margin-top: 5%;
+    }
+    li {
+      @extend .arimoR;
+      margin: 5%;
+      color: $midnightBlue;
+    }
+  }
+}
