@@ -36,4 +36,15 @@
       color: $midnightBlue;
     }
   }
+  footer {
+    @extend .arimoR;
+    ul {
+      display: flex;
+      word-spacing: 2;
+    }
+    li {
+      font-size: small;
+      margin: 0% 5% 1% 3%;
+    }
+  }
 }
