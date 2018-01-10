@@ -35,13 +35,31 @@
         color: $steelblue;
         cursor: pointer;
       }
+    }
       .splitAside {
-        display: inline-flex;
-        .weeklyPost {
-          padding-right: 20%;
-          line-height: 2;
-        }
+        display: flex;
+        width: 100%;
+      }
+      .weekContent {
+        width: 65%;
+      }
+    .weeklyPost {
+      padding-right: 20%;
+      line-height: 2;
+    }
+    .categories {
+      width: 100%;
+      border-top: none;
+      border-left: 2px solid $interstateBlue;
+      height: 100%;
+      p {
+          margin: 0% 0% 20% 5%;
+      }
+      li {
+        margin: 0% 0% 0% 15%;
+        line-height: 2;
       }
     }
+
   }
 }
