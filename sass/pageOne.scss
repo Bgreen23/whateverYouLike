@@ -1,0 +1,19 @@
+.pageOne {
+  background-color: $aliceBlue;
+  .header{
+    height: 20%;
+    background-color: $interstateBlue;
+  }
+  .selfie {
+    border-radius: 10%;
+    width: 60px;
+    height: 100px;
+  }
+  .aboutAuthor {
+    @extend .playFairR;
+    font-style: italic;
+  }
+  .name {
+    @extend .playFairBI;
+  }
+  }
