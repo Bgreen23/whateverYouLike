@@ -1,0 +1,47 @@
+@media only screen and (min-width: 600px){
+  .index {
+    .header {
+      height: 65px;
+      text-transform: uppercase;
+      p{
+        padding: 3%;
+        float: left;
+        color: $aliceBlue;
+      }
+      ul {
+        display: flex;
+        padding-top: 3%;
+      }
+      li {
+        float: right;
+        margin-left: 5%;
+        font-size: small;
+        color: $aliceBlue;
+      }
+      li:hover {
+        color: $steelblue;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) {
+  .index {
+    .header {
+      p{
+        margin-right: 25%;
+      }
+      li:hover {
+        color: $steelblue;
+        cursor: pointer;
+      }
+      .splitAside {
+        display: inline-flex;
+        .weeklyPost {
+          padding-right: 20%;
+          line-height: 2;
+        }
+      }
+    }
+  }
+}
