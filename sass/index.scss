@@ -1,5 +1,9 @@
 .index{
   background-color: $aliceBlue;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
   .header{
     height: 20%;
     background-color: $interstateBlue;
