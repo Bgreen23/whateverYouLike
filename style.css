@@ -248,31 +248,38 @@ table {
     margin: 0% 5% 1% 3%; }
 
 .drumkit {
+  height: 100%;
   width: 100%;
-  align-items: center; }
+  align-items: center;
+  background-image: url("images/drumKitBacking.jpg"); }
 
 .keys {
-  display: flex; }
+  display: flex;
+  padding-top: 20%;
+  margin-left: 2%; }
 
 .key {
   border: 3px solid black;
   border-radius: 5px;
   display: block;
   padding: 2%;
-  margin: 1%;
+  margin: 1.5%;
   text-align: center;
   transition: all 0.07s; }
 
 .playing {
-  transform: scale(1);
-  border-color: red;
-  box-shadow: 0 0 10px blue; }
+  transform: scale(1.3);
+  border-color: gold;
+  box-shadow: 0 0 20px yellow; }
 
 kbd {
   display: flex;
-  font-size: 15px; }
+  font-size: 25px;
+  color: black;
+  padding: 15px; }
 
 .sound {
-  font-size: 10px; }
+  font-size: 20px;
+  color: gold; }
 
 /*# sourceMappingURL=style.css.map */
